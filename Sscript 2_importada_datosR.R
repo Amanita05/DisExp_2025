@@ -25,6 +25,20 @@ boxplot(trees$Height..m. ~ trees$Especies,
         main ="Inventario",
         ylim = c(5,25))
 
+# Histograma de altura
+hist(trees$Height..m.,
+     xlab = "Height (m)",
+     ylab = "Frecuencia",
+     main = "Categorias de altura",
+     col = "violet")
+
+# Hoja y tallo 
+stem(trees$Height..m.)
+
+
+
+
+
 
 
         
