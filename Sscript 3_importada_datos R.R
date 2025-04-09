@@ -19,7 +19,7 @@ datos <- data.frame(grupo, ansiedad)
 head(datos)
 
 # Revisar datos mediante un boxplot
-png("ansiedad.png", widht= 6, height = 8, units = "in", res =300)
+png("ansiedad.png", width = 6, height = 8, units = "in", res =300)
 boxplot(datos$ansiedad ~ datos$grupo, 
         col= "purple",
         xlab= "grupo",
@@ -58,3 +58,4 @@ t.test(datos$ansiedad ~ datos$grupo, var.equal = T,
        alternative = "greater")
 t.test(datos$ansiedad ~ datos$grupo, var.equal = T,
        alternative = "less")
+
