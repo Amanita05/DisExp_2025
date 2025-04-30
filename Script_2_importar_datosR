@@ -1,0 +1,13 @@
+# Tamara Martinez Martinez
+# 2067694
+# 31/03/2025
+
+# La funcion read.csv sirve para imrportar datos
+trees <- read.csv("Practica2.csv", header = T)
+
+# La funcion as.factor sirve para convertir caracteres a factores 
+trees$Especies <- as.factor (trees$Especies)
+trees$Crown <- as.factor(trees$Crown)
+
+
+
