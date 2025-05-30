@@ -2,8 +2,8 @@
 # 2067694
 # 31/03/2025
 
-# La funcion read.cvs sirve para importar datos
-trees <- read.cvs("Practica2.cvs", header = T)
+# La funcion read sirve para importar datos
+trees <- read.csv ("Practica 2.csv", header = T)
 
 # La funcion as.factor sirve para convertir caracteres a factores
 trees$Especies <- as.factor(trees$Especies)
